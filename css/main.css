@@ -195,13 +195,13 @@ section > p {
 .venue .s1_prev {
     width: 2.5vw;
     left: 11vw;
-    top: 26.5vw;
+    top: 25vw;
     outline: none;
 }
 .venue .s1_next {
     width: 2.5vw;
     right: 11vw;
-    top: 26.5vw;
+    top: 25vw;
     outline: none;
 }
 .garden h1 {
@@ -224,7 +224,9 @@ section > p {
     line-height: 2.5vw;
 }
 .garden .right_area {
+    background-image: url(../img/.png);
     padding: 0;
+    
 }
 
 .garden .right_area ul {
@@ -569,59 +571,73 @@ footer .footer_sns img {
         margin: 0 auto;
     }
     .venue .s1_prev {
-        width: 4vw;
+        width: 6vw;
         left: 6vw;
         top: 60vw;
         outline: none;
     }
     .venue .s1_next {
-        width: 4vw;
-        right: 8vw;
+        width: 6vw;
+        right: 6vw;
         top: 60vw;
         outline: none;
     }
     .garden h1 {
         text-align: center;
         font-size: 8vw;
-        margin-bottom: 2vw;
+        margin-bottom: 5vw;
     }
     .garden .left_area {
         background-image: url(../img/8.png);
         height: 47vh;
     }
     .garden .right_area {
-        width: 100%;
-        margin-top: 100%;
-        padding: 10vw; 
+        
     }
     .garden .right_area ul {
         display: flex;
         flex-flow: row wrap;
-        margin-top: 10vw;
     }
-    .garden .right_area ul li {
+    .garden .right_area ul li p {
+    color: #fff;
+    text-shadow: 1px 1px 1px #212121;
+    text-align: center;
+    font-size: 3.5vw;
+    padding-top: 13vw;
+    font-family: flower;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    text-shadow: 0 0 1vw #111;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: none;
     }
     .garden .right_area ul li:first-child {
         background-image: url(../img/c2.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        height: 40vw;
     }
     .garden .right_area ul li:nth-child(2) {
         background-image: url(../img/collection3.jpg);
         background-size: cover;
+        height: 40vw;
     }
     .garden .right_area ul li:nth-child(3) {
         background-image: url(../img/collection6.png);
         background-size: cover;
+        height: 40vw;
     }
     .garden .right_area ul li:last-child {
         background-image: url(../img/collection4.jpg);
         background-size: cover;
+        height: 40vw;
     }
     .banquet {
         width: 100vw;
         margin: 0 auto;
+        padding-top: 20vw;
     }
     .banquet .row {
         width: 100%;
@@ -633,23 +649,27 @@ footer .footer_sns img {
     }   
 
     .buffet .swiper3 {
-        height: 40vh;
+        height: 30vh;
         margin: 0 auto;
-        padding: 2vw;
+        margin-left: 4vw;
+        width: 100%;
     }
     .buffet .s3_prev {
         width: 5vw;
         top: 25vw;
         outline: none;
+        mar
     }
     .buffet .s3_next {
         width: 5vw;
-        top: 25vw;
+        top: 14vw;
         outline: none;
+        margin: 4vw;
     }
     .event {
         width: 90%;
         margin: 0 auto;
+        height: 10vw;
     }
     .event .col-sm-6 {
         padding: 0;
@@ -665,16 +685,14 @@ footer .footer_sns img {
     .withus h1 {
         text-align: center;
         font-size: 5vw;
-        margin: 3vw;
-        padding-top: 10vw;
     }
     .map {
-        top: 10vw;
-        height: 100%;
+        top: 8vw;
+        height: 90%;
     }
     .map .row{
         width: 80%;
-        margin-top: 5vw;
+        margin-top: 3vw;
     }
     .map h1 {
         text-align: center;
@@ -694,14 +712,14 @@ footer .footer_sns img {
     }
     footer .addr address {
         line-height: 5vw;
-        padding-top: 6vw;
+        padding-top: 5vw;
         padding-left: 23vw;
         font-family: flower;
-        font-size: 4vw;
+        font-size: 3vw;
     }
     footer .addr p {
         padding-top: 1vw;
-        font-size: 3vw;
+        font-size: 2.3vw;
         padding-left: 23vw;
         font-family: flower;
     }
