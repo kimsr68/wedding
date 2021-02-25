@@ -604,8 +604,10 @@ footer .footer_sns img {
     font-size: 5vw;
     font-family: flower;
     padding: 30vw 0;
-    display: none;
 }
+    .venue .over {
+        display: none;
+    }
     .garden {
         height: 100%;
     }
@@ -625,7 +627,7 @@ footer .footer_sns img {
         display: flex;
         flex-flow: row wrap;
     }
-    .garden .right_area ul li p {
+    .garden .rig  ht_area ul li p {
     color: #fff;
     text-shadow: 1px 1px 1px #212121;
     text-align: center;
