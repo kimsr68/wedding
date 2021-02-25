@@ -541,7 +541,6 @@ footer .footer_sns img {
     }
     .main {
         width: 100%;
-        height:50vh;
         overflow: hidden;
         position: relative;
     }
@@ -732,22 +731,23 @@ footer .footer_sns img {
     .withus h1 {
         text-align: center;
         font-size: 5vw;
+        padding:10vw; 
     }
     .map {
-       margin-top: 3vw;
+       margin-top: 1vw;
     }
     .map .row{
         width: 100%;
-        margin-top: 3vw;
+        margin-top: 1vw;
     }
     .map iframe {
         height:40vh;
     }
     .map h1 {
         text-align: center;
-        font-size: 5vw;
-        margin: 11vw;
-        padding-top: 10vw
+        font-size: 4vw;
+        margin: 5vw;
+        padding-top: 8vw
     }
     footer {
         width: 100%;

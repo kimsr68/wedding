@@ -7,6 +7,8 @@ $(document).ready(function(){
     {
         //모바일
         $('section').css('height','auto');
+        $('.main').css('height','40vh');
+        
     }else{
         //pc
         //section의 높이는 브라우저의 높이로 설정
