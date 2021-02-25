@@ -567,7 +567,7 @@ footer .footer_sns img {
     }
     .venue .swiper-container {
         width: 70%;
-        height: 100%;
+        height: 1000%;
         margin: 0 auto;
     }
     .venue .s1_prev {
@@ -581,6 +581,9 @@ footer .footer_sns img {
         right: 6vw;
         top: 60vw;
         outline: none;
+    }
+    .garden {
+        height: 100%;
     }
     .garden h1 {
         text-align: center;
@@ -640,8 +643,12 @@ footer .footer_sns img {
         padding-top: 20vw;
     }
     .banquet .row {
-        width: 100%;
+        width: 50%;
+        height: 100%;
         margin: 0 auto;
+    }
+    .banquet .row img {
+        height: 40vw;
     }
     .banquet h1 {
         text-align: center;
@@ -658,7 +665,6 @@ footer .footer_sns img {
         width: 5vw;
         top: 25vw;
         outline: none;
-        mar
     }
     .buffet .s3_next {
         width: 5vw;
@@ -669,7 +675,7 @@ footer .footer_sns img {
     .event {
         width: 90%;
         margin: 0 auto;
-        height: 10vw;
+        height: 100%;
     }
     .event .col-sm-6 {
         padding: 0;
