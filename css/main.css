@@ -132,8 +132,7 @@ section > p {
     overflow: hidden;
     position: relative;
 }
-.main video {
-    width: 100%;
+.main iframe {
     position: absolute;
     left: 50%; top: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -558,8 +557,11 @@ footer .footer_sns img {
     .main .main_txt h3 {
         font-size: 1.3vw;
     }
-    .venu .swiper1 {
-        height: 40vh;
+    .venue h1 {
+        font-size: 8vw;
+    }
+    .venue p {
+        font-size: 3vw;
     }
     .venue .swiper-container {
         width: 70%;
@@ -568,21 +570,20 @@ footer .footer_sns img {
     }
     .venue .s1_prev {
         width: 4vw;
-        left: 7vw;
+        left: 6vw;
         top: 60vw;
         outline: none;
     }
     .venue .s1_next {
         width: 4vw;
-        right: 7vw;
+        right: 8vw;
         top: 60vw;
         outline: none;
     }
     .garden h1 {
         text-align: center;
-        font-size: 10vw;
+        font-size: 8vw;
         margin-bottom: 2vw;
-
     }
     .garden .left_area {
         background-image: url(../img/8.png);
@@ -599,18 +600,6 @@ footer .footer_sns img {
         margin-top: 10vw;
     }
     .garden .right_area ul li {
-        height: 20vh;
-        padding-top: 0vh;
-    }
-
-        .garden .right_area ul li {
-            height: 25vh;
-            padding-top: 0vh;
-        }
-
-    .garden .right_area ul li:hover p{
-        display: block;
-
     }
     .garden .right_area ul li:first-child {
         background-image: url(../img/c2.png);
@@ -631,7 +620,7 @@ footer .footer_sns img {
         background-size: cover;
     }
     .banquet {
-        width: 40vw;
+        width: 100vw;
         margin: 0 auto;
     }
     .banquet .row {
@@ -640,12 +629,13 @@ footer .footer_sns img {
     }
     .banquet h1 {
         text-align: center;
-        font-size: 4vw;
+        font-size: 8vw;
     }   
 
     .buffet .swiper3 {
         height: 40vh;
         margin: 0 auto;
+        padding: 2vw;
     }
     .buffet .s3_prev {
         width: 5vw;
