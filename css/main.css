@@ -701,6 +701,9 @@ footer .footer_sns img {
         margin: 0 auto;
         padding: 10vw;
     }
+    .withus .col-sm-4 {
+        margin-top: 3vw;
+    } 
     .withus {
         height: 100%;
     }
