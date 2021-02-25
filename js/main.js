@@ -6,7 +6,7 @@ $(document).ready(function(){
         if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) 
     {
         //모바일
-        
+        $('section').css('height','auto');
     }else{
         //pc
         //section의 높이는 브라우저의 높이로 설정

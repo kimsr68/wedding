@@ -285,8 +285,19 @@ section > p {
 .banquet .row {
     width: 80%;
     margin: 0 auto;
-    height: 90%;
+    padding:0;
 }
+.banquet .row .col-sm-6 {
+    padding:0;
+    display:flex;
+    justify-content: space-around;
+}
+.banquet .row .col-sm-6 a {
+    width:45%;
+    display:inline-block;
+    margin:0.5vw;
+    padding:0;
+    }
 .banquet h1 {
     text-align: center;
     font-size: 2vw;
@@ -569,7 +580,7 @@ footer .footer_sns img {
     }
     .venue .swiper-container {
         width: 70%;
-        height: 60vh;
+        height: 55vh;
         margin: 0 auto;
     }
     .venue .swiper-slide {
@@ -648,12 +659,12 @@ footer .footer_sns img {
         padding-top: 20vw;
     }
     .banquet .row {
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        /*height: 100%;*/
         margin: 0 auto;
     }
-    .banquet .row img {
-        height: 40vw;
+    .banquet .row .col-sm-6 {
+        
     }
     .banquet h1 {
         text-align: center;
@@ -698,12 +709,14 @@ footer .footer_sns img {
         font-size: 5vw;
     }
     .map {
-        top: 8vw;
-        height: 90%;
+       margin-top: 3vw;
     }
     .map .row{
-        width: 80%;
+        width: 100%;
         margin-top: 3vw;
+    }
+    .map iframe {
+        height:40vh;
     }
     .map h1 {
         text-align: center;
