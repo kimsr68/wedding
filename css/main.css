@@ -559,7 +559,6 @@ footer .footer_sns img {
         text-align: center;
         color: #fff;
         text-shadow: 1px 1px 1px #212121;
-        display: none;
     }
     .main .main_txt p {
         font-size: 1.3vw;
@@ -732,7 +731,6 @@ footer .footer_sns img {
     .withus h1 {
         text-align: center;
         font-size: 5vw;
-        padding:10vw; 
     }
     .map {
        margin-top: 1vw;
