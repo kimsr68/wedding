@@ -586,6 +586,7 @@ footer .footer_sns img {
     .venue .swiper-slide {
         height: 50vh;
     }
+    
     .venue .s1_prev {
         width: 6vw;
         left: 6vw;
@@ -598,6 +599,27 @@ footer .footer_sns img {
         top: 60vw;
         outline: none;
     }
+    .venue .swiper-slide a p {
+    width: 100%;
+    height: 97%;   
+    color: #212121;
+    text-shadow: 0 0 1vw #212121;
+    text-align: center;
+    font-size: 5vw;
+    box-sizing: border-box;
+    font-family: flower;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding: 30vw 0;
+    display: none;
+}
+.venue .swiper-slide:hover p {
+    display: block;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    text-shadow: 0 0 1vw #111;
+}
     .garden {
         height: 100%;
     }
@@ -670,23 +692,23 @@ footer .footer_sns img {
         text-align: center;
         font-size: 8vw;
     }   
-
+    .buffet {
+        margin: 0 auto;
+        
+    }
     .buffet .swiper3 {
         height: 30vh;
-        margin: 0 auto;
-        margin-left: 4vw;
         width: 100%;
     }
     .buffet .s3_prev {
         width: 5vw;
-        top: 25vw;
+        top: 23vw;
         outline: none;
     }
     .buffet .s3_next {
         width: 5vw;
-        top: 25vw;
+        top: 23vw;
         outline: none;
-        margin-right: 2vw;
     }
     .event {
         width: 90%;
