@@ -599,25 +599,12 @@ footer .footer_sns img {
         outline: none;
     }
     .venue .swiper-slide a p {
-    width: 100%;
-    height: 100%;   
-    color: #212121;
-    text-shadow: 0 0 1vw #212121;
+    height: 80%;   
     text-align: center;
     font-size: 5vw;
-    box-sizing: border-box;
     font-family: flower;
-    left: 0;
-    top: 0;
-    position: absolute;
     padding: 30vw 0;
     display: none;
-}
-.venue .swiper-slide:hover p {
-    display: block;
-    background-color: rgba(0,0,0,0.6);
-    color: #fff;
-    text-shadow: 0 0 1vw #111;
 }
     .garden {
         height: 100%;
