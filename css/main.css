@@ -718,7 +718,7 @@ footer .footer_sns img {
         padding: 0;
     }
     .withus .row{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     .withus .col-sm-4 {
@@ -737,6 +737,7 @@ footer .footer_sns img {
     .map .row{
         width: 100%;
         margin-top: 1vw;
+        margin-bottom: 10vw;
     }
     .map iframe {
         height:30vh;
