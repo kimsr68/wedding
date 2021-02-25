@@ -533,7 +533,7 @@ footer .footer_sns img {
         overflow: hidden;
         position: relative;
     }
-    .main video {
+    .main iframe {
         width: 100%;
         position: absolute;
         left: 50%; top: 50%;
@@ -668,9 +668,9 @@ footer .footer_sns img {
     }
     .buffet .s3_next {
         width: 5vw;
-        top: 14vw;
+        top: 25vw;
         outline: none;
-        margin: 4vw;
+        margin-right: 2vw;
     }
     .event {
         width: 90%;
