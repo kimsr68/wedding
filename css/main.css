@@ -11,34 +11,34 @@ body { font-family: 'Nanum Gothic', sans-serif;}
 @font-face {
     font-family:flower;
     src:local(※);
-    src:url(../font/flower.eot)format('eot');
-    src:url(../font/flower.woff)format('woff');
-    src:url(../font/flower.woff2)format('woff2');
-    src:url(../font/flower.ttf)format('truetype');
+    src:url(../font/flower.eot) format('eot');
+    src:url(../font/flower.woff) format('woff');
+    src:url(../font/flower.woff2) format('woff2');
+    src:url(../font/flower.ttf) format('truetype');
 }
 @font-face {
     font-family:javatext;
     src:local(※);
-    src:url(../font/javatext.eot)format('eot');
-    src:url(../font/javatext.woff)format('woff');
-    src:url(../font/javatext.woff2)format('woff2');
-    src:url(../font/javatext.ttf)format('truetype');
+    src:url(../font/javatext.eot) format('eot');
+    src:url(../font/javatext.woff) format('woff');
+    src:url(../font/javatext.woff2) format('woff2');
+    src:url(../font/javatext.ttf) format('truetype');
 }
 @font-face {
     font-family:photo;
     src:local(※);
-    src:url(../font/photo.eot)format('eot');
-    src:url(../font/photo.woff)format('woff');
-    src:url(../font/photo.woff2)format('woff2');
-    src:url(../font/sonamo.ttf)format('truetype');
+    src:url(../font/photo.eot) format('eot');
+    src:url(../font/photo.woff) format('woff');
+    src:url(../font/photo.woff2) format('woff2');
+    src:url(../font/sonamo.ttf) format('truetype');
 }
 @font-face {
     font-family:sonamo;
     src:local(※);
-    src:url(../font/sonamo.eot)format('eot');
-    src:url(../font/sonamo.woff)format('woff');
-    src:url(../font/sonamo.woff2)format('woff2');
-    src:url(../font/sonamo.ttf)format('truetype');
+    src:url(../font/sonamo.eot) format('eot');
+    src:url(../font/sonamo.woff) format('woff');
+    src:url(../font/sonamo.woff2) format('woff2');
+    src:url(../font/sonamo.ttf) format('truetype');
 }
 img {width: 100%;}
 .wrap {
@@ -530,12 +530,13 @@ footer .footer_sns img {
     }
     .main {
         width: 100%;
+        height:50vh;
         overflow: hidden;
         position: relative;
     }
     .main iframe {
         width: 100%;
-        height:100%;
+        height:50vh;
         position: absolute;
         left: 50%; top: 50%;
         transform: translateX(-50%) translateY(-50%);
@@ -568,7 +569,7 @@ footer .footer_sns img {
     }
     .venue .swiper-container {
         width: 70%;
-        height: 1000%;
+        height: 60vh;
         margin: 0 auto;
     }
     .venue .swiper-slide {
