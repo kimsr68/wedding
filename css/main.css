@@ -136,7 +136,7 @@ section > p {
     position: absolute;
     left: 50%; top: 50%;
     width: 100%;
-    height: 110%;
+    height: 120%;
     transform: translateX(-50%) translateY(-50%);
 }
 .main .main_txt {
@@ -548,7 +548,7 @@ footer .footer_sns img {
     }
     .main iframe {
         width: 100%;
-        height:50vh;
+        height:40vh;
         position: absolute;
         left: 50%; top: 50%;
         transform: translateX(-50%) translateY(-50%);
