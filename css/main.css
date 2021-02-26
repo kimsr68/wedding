@@ -538,17 +538,18 @@ footer .footer_sns img {
     }
     section > p {
         text-align: center;
-        font-size: vw;
+        font-size:2vw;
         margin-bottom: 3vw;
     }
     .main {
         width: 100%;
+        height: 30vh;
         overflow: hidden;
         position: relative;
     }
     .main iframe {
         width: 100%;
-        height:40vh;
+        height:120%;
         position: absolute;
         left: 50%; top: 50%;
         transform: translateX(-50%) translateY(-50%);
