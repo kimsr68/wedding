@@ -293,7 +293,7 @@ section > p {
     justify-content: space-around;
 }
 .banquet .row .col-sm-6 a {
-    width:45%;
+    width:49%;
     display:inline-block;
     margin:0.5vw;
     padding:0;
@@ -673,7 +673,7 @@ footer .footer_sns img {
         /*height: 100%;*/
         margin: 0 auto;
     }
-    .banquet .row .col-sm-6 {
+    .banquet .row .col-sm-6 a {
         
     }
     .banquet h1 {
