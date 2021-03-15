@@ -436,12 +436,12 @@ footer .footer_sns img {
         height: 100%;
         padding: 3vw;
         box-sizing: border-box;
-        float: left;
     }
     header .mobile_menu button {
-        float: left;
+        position: absolute;
         width: 10vw;
-        margin: 7vw 7.5vw;
+        top: 5vw;
+        right: 3vw;
     }
     header .mobile_menu .menu_in p {
         text-align: center;
