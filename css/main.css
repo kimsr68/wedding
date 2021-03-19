@@ -6,6 +6,7 @@ a:hover {
     text-decoration: none;
     color: #212121;
 }
+html,body {height: 100%;}
 body { font-family: 'Nanum Gothic', sans-serif;}
 /*src:local(※)-내 홈페이지에 접속한 사용자의 컴퓨터에 글꼴이 있으면 다운 받지 말아라*/
 @font-face {
@@ -42,7 +43,7 @@ body { font-family: 'Nanum Gothic', sans-serif;}
 }
 img {width: 100%;}
 .wrap {
-    width: 100%;
+    width: 100%; height: 100%;
 }
 header {
     position: absolute;
@@ -116,6 +117,8 @@ section {
     position:relative;
     width: 100%;
     overflow: hidden;
+    float: left;
+    height: 100%;
 }
 .venue h1 {
     text-align: center;
@@ -131,6 +134,7 @@ section > p {
     width: 100%;
     overflow: hidden;
     position: relative;
+    height: 100%;
 }
 .main iframe {
     position: absolute;
@@ -213,7 +217,7 @@ section > p {
     
 }
 .garden .left_area {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/8.png);
+    background-image: url(../img/8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,9 +230,11 @@ section > p {
     line-height: 2.5vw;
 }
 .garden .right_area {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/.png);
+    background-image: url(../img/.png);
     padding: 0;
+    
 }
+
 .garden .right_area ul {
     display: flex;
     flex-flow: row wrap;
@@ -261,26 +267,27 @@ section > p {
     
 }
 .garden .right_area ul li:first-child {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/c2.png);
+    background-image: url(../img/c2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .garden .right_area ul li:nth-child(2) {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection3.jpg);
+    background-image: url(../img/collection3.jpg);
     background-size: cover;
 }
 .garden .right_area ul li:nth-child(3) {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection6.png);
+    background-image: url(../img/collection6.png);
     background-size: cover;
 }
 .garden .right_area ul li:last-child {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection4.jpg);
+    background-image: url(../img/collection4.jpg);
     background-size: cover;
 }
 .banquet {
     width: 100%;
     margin: 0 auto;
+	margin-top:5vw;
 }
 .banquet .row {
     width: 80%;
@@ -317,7 +324,7 @@ section > p {
     outline: none;
 }
 .event {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     top: 11vw;
 }
@@ -338,6 +345,7 @@ section > p {
     padding-top: 3vw;
     margin-top: 5vw;
 }
+
 .map .row{
     width: 70%;
     margin: 0 auto;
@@ -348,7 +356,11 @@ section > p {
     text-align: center;
     font-size: 2vw;
 }
+.map iframe {
+	height:35vw;
+}
 footer {
+    float: left;
     width: 100%;
     padding-bottom: 5vw;
     background-color: mistyrose;
@@ -528,11 +540,14 @@ footer .footer_sns img {
         width: 100%;
         font-size: 3vw;
         padding: 1.5vw;
-        background-image:url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/right1.jpg);
+        background-image:url(../img/right1.jpg);
         background-position: center right;
         background-repeat: no-repeat;
         background-size: 16px;
         float: right;
+    }
+    section {
+        height: auto;
     }
     section > p {
         text-align: center;
@@ -541,13 +556,13 @@ footer .footer_sns img {
     }
     .main {
         width: 100%;
-        height: 23.9vh;
+        height: 56vw;
         overflow: hidden;
         position: relative;
     }
     .main iframe {
         width: 100%;
-        height:120%;
+        height:100%;
         position: absolute;
         left: 50%; top: 50%;
         transform: translateX(-50%) translateY(-50%);
@@ -577,6 +592,9 @@ footer .footer_sns img {
     }
     .venue p {
         font-size: 3vw;
+    }
+    .venue .swiper1 {
+        height: 40vh;
     }
     .venue .swiper-container {
         width: 70%;
@@ -611,6 +629,7 @@ footer .footer_sns img {
     }
     .garden {
         height: 100%;
+        margin-top: 15vw;
     }
     .garden h1 {
         text-align: center;
@@ -618,7 +637,7 @@ footer .footer_sns img {
         margin-bottom: 5vw;
     }
     .garden .left_area {
-        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/8.png);
+        background-image: url(../img/8.png);
         height: 47vh;
     }
     .garden .right_area {
@@ -644,23 +663,23 @@ footer .footer_sns img {
         display: none;
     }
     .garden .right_area ul li:first-child {
-        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/c2.png);
+        background-image: url(../img/c2.png);
         background-position: center;
         background-repeat: no-repeat;
         height: 40vw;
     }
     .garden .right_area ul li:nth-child(2) {
-        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection3.jpg);
+        background-image: url(../img/collection3.jpg);
         background-size: cover;
         height: 40vw;
     }
     .garden .right_area ul li:nth-child(3) {
-        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection6.png);
+        background-image: url(../img/collection6.png);
         background-size: cover;
         height: 40vw;
     }
     .garden .right_area ul li:last-child {
-        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection4.jpg);
+        background-image: url(../img/collection4.jpg);
         background-size: cover;
         height: 40vw;
     }
@@ -700,8 +719,9 @@ footer .footer_sns img {
         outline: none;
     }
     .event {
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+		box-sizing: border-box;
+		padding:0 10%;
         height: 100%;
     }
     .event .col-sm-6 {
@@ -722,16 +742,13 @@ footer .footer_sns img {
         font-size: 5vw;
         padding-top: 10vw;
     }
-    .map {
-       margin-top: 1vw;
-    }
     .map .row{
         width: 100%;
         margin-top: 1vw;
         margin-bottom: 20vw;
     }
     .map iframe {
-        height:30vh;
+        height:50vh;
     }
     .map h1 {
         text-align: center;
@@ -743,6 +760,7 @@ footer .footer_sns img {
         width: 100%;
         padding-bottom: 5vw;
         background-color: mistyrose;
+        margin-top: 10vw;
     }
     footer .footer_logo {
         width: 23vw;
