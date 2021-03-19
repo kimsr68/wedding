@@ -217,7 +217,7 @@ section > p {
     
 }
 .garden .left_area {
-    background-image: url(../img/8.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,7 +230,7 @@ section > p {
     line-height: 2.5vw;
 }
 .garden .right_area {
-    background-image: url(../img/.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/.png);
     padding: 0;
     
 }
@@ -267,21 +267,21 @@ section > p {
     
 }
 .garden .right_area ul li:first-child {
-    background-image: url(../img/c2.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/c2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .garden .right_area ul li:nth-child(2) {
-    background-image: url(../img/collection3.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection3.jpg);
     background-size: cover;
 }
 .garden .right_area ul li:nth-child(3) {
-    background-image: url(../img/collection6.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection6.png);
     background-size: cover;
 }
 .garden .right_area ul li:last-child {
-    background-image: url(../img/collection4.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection4.jpg);
     background-size: cover;
 }
 .banquet {
@@ -637,7 +637,7 @@ footer .footer_sns img {
         margin-bottom: 5vw;
     }
     .garden .left_area {
-        background-image: url(../img/8.png);
+        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/8.png);
         height: 47vh;
     }
     .garden .right_area {
@@ -669,17 +669,17 @@ footer .footer_sns img {
         height: 40vw;
     }
     .garden .right_area ul li:nth-child(2) {
-        background-image: url(../img/collection3.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection3.jpg);
         background-size: cover;
         height: 40vw;
     }
     .garden .right_area ul li:nth-child(3) {
-        background-image: url(../img/collection6.png);
+        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection6.png);
         background-size: cover;
         height: 40vw;
     }
     .garden .right_area ul li:last-child {
-        background-image: url(../img/collection4.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection4.jpg);
         background-size: cover;
         height: 40vw;
     }
