@@ -217,8 +217,7 @@ section > p {
     
 }
 .garden .left_area {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/
-img/8.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,9 +232,7 @@ img/8.png);
 .garden .right_area {
     background-image: url(../img/.png);
     padding: 0;
-    
 }
-
 .garden .right_area ul {
     display: flex;
     flex-flow: row wrap;
@@ -268,25 +265,21 @@ img/8.png);
     
 }
 .garden .right_area ul li:first-child {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/
-img/c2.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/c2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .garden .right_area ul li:nth-child(2) {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/
-img/collection3.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection3.jpg);
     background-size: cover;
 }
 .garden .right_area ul li:nth-child(3) {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/
-img/collection6.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection6.png);
     background-size: cover;
 }
 .garden .right_area ul li:last-child {
-    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/
-img/collection4.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/wedding/img/collection4.jpg);
     background-size: cover;
 }
 .banquet {
